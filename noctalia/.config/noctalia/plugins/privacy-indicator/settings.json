@@ -1,9 +1,10 @@
 {
   "hideInactive": true,
   "enableToast": true,
-  "iconSpacing": 6,
   "removeMargins": false,
+  "iconSpacing": 6,
   "activeColor": "primary",
   "inactiveColor": "none",
-  "micFilterRegex": ""
+  "micFilterRegex": "",
+  "camFilterRegex": ""
 }

@@ -54,11 +54,6 @@
       "format": "{$1}{sysname}  {#32}[v{release}]",
     },
     {
-      "key": "{#32}│ {#32}󰇄 desktop  {#32}│",
-      "type": "de",
-      "format": "{$1}{pretty-name}  {#32}[v{version}]",
-    },
-    {
       "key": "{#32}│ {#32} terminal {#32}│",
       "type": "terminal",
       "format": "{$1}{pretty-name}  {#32}[{version}]",
