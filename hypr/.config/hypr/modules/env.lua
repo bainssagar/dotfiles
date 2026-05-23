@@ -3,8 +3,8 @@ hl.env("HYPRCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_THEME", "Bibata-Modern-Ice")
 hl.env("EDITOR", "nvim")
 
-hl.env("GDK_BACKEND", "wayland", "x11", "*")
-hl.env("QT_QPA_PLATFORM", "wayland", "xcb")
+hl.env("GDK_BACKEND", "wayland,x11,*")
+hl.env("QT_QPA_PLATFORM", "wayland;xcb")
 hl.env("SDL_VIDEODRIVER", "wayland")
 hl.env("CLUTTER_BACKEND", "wayland")
 

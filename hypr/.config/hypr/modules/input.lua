@@ -17,6 +17,11 @@ hl.config({
 			natural_scroll = true,
 		},
 	},
+
+	cursor = {
+		hide_on_key_press = true,
+		inactive_timeout = 30,
+	},
 })
 
 hl.gesture({
@@ -24,8 +29,3 @@ hl.gesture({
 	direction = "vertical",
 	action = "workspace",
 })
-
--- hl.device({
--- 	name = "epic-mouse-v1",
--- 	sensitivity = -0.5,
--- })

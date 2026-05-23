@@ -15,18 +15,19 @@ hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ action = "toggle" }))
 -- Launch Apps
 hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(menu))
+hl.bind(mainMod .. " + SHIFT + SPACE", hl.dsp.exec_cmd("hyprlauncher"))
 hl.bind(mainMod .. " + SHIFT + F", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(editor))
 hl.bind(mainMod .. " + Y", hl.dsp.exec_cmd("ghostty -e yazi"))
-hl.bind(mainMod .. " + S", hl.dsp.exec_cmd("steam"))
+hl.bind(mainMod .. " + G", hl.dsp.exec_cmd("steam"))
 
 -- Sceenshots
-hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("hyprshot -m window --raw | satty --filename -"))
-hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd("hyprshot -m region --raw | satty --filename -"))
+hl.bind(mainMod .. " + S", hl.dsp.exec_cmd("hyprshot -m window --raw | satty --filename -"))
+hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("hyprshot -m region --raw | satty --filename -"))
 
 -- Noctalia
-hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call notifications toggle history"))
+hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call notifications toggleHistory"))
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call sessionMenu toggle"))
 hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call controlCenter toggle"))
 hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call calendar toggle"))
@@ -45,7 +46,7 @@ hl.bind(mainMod .. "+ SHIFT + up", hl.dsp.window.move({ direction = "up" }))
 hl.bind(mainMod .. "+ SHIFT + down", hl.dsp.window.move({ direction = "down" }))
 
 -- Move current workspace to next monitor
-hl.bind(mainMod .. " + SHIFT + M", hl.dsp.window.move({ monitor = "+1" }))
+hl.bind(mainMod .. " + SHIFT + M", hl.dsp.workspace.move({ monitor = "+1" }))
 
 -- Switch workspaces with mainMod + [0-9] and Move active window to a workspace with mainMod + SHIFT + [0-9]
 for i = 1, 10 do
