@@ -12,6 +12,7 @@ PACKAGES=(
   "hyprpolkitagent"
   "hyprpicker"
   "hyprshot"
+  "hyprlauncher"
   "wlsunset"
   "satty"
   "udiskie"
@@ -34,6 +35,7 @@ PACKAGES=(
   "papers"
   "loupe"
   "amberol"
+  "showtime"
   "zoxide"
   "eza"
   "unimatrix-git"
@@ -55,6 +57,7 @@ PACKAGES=(
   "ani-cli"
   "clamav"
   "lmstudio-bin"
+  "picard"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
