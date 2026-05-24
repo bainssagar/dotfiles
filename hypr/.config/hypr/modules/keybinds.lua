@@ -21,6 +21,7 @@ hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(editor))
 hl.bind(mainMod .. " + Y", hl.dsp.exec_cmd("ghostty -e yazi"))
 hl.bind(mainMod .. " + G", hl.dsp.exec_cmd("steam"))
+hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("localsend"))
 
 -- Sceenshots
 hl.bind(mainMod .. " + S", hl.dsp.exec_cmd("hyprshot -m window --raw | satty --filename -"))
@@ -28,7 +29,7 @@ hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("hyprshot -m region --raw | s
 
 -- Noctalia
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call notifications toggleHistory"))
-hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call sessionMenu toggle"))
+hl.bind(mainMod .. " + ESCAPE", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call sessionMenu toggle"))
 hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call controlCenter toggle"))
 hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call calendar toggle"))
 hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call media toggle"))
