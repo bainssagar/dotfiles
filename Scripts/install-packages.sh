@@ -5,6 +5,7 @@
 PACKAGES=(
   "neovim"
   "git"
+  "lazygit"
   "fzf"
   "stow"
   "yazi"
