@@ -162,15 +162,13 @@
                 {
                     "displayMode": "onhover",
                     "iconColor": "none",
-                    "id": "Volume",
-                    "middleClickCommand": "pwvucontrol || pavucontrol",
+                    "id": "Network",
                     "textColor": "none"
                 },
                 {
-                    "applyToAllMonitors": false,
                     "displayMode": "onhover",
                     "iconColor": "none",
-                    "id": "Brightness",
+                    "id": "Bluetooth",
                     "textColor": "none"
                 },
                 {
@@ -248,11 +246,11 @@
                 "id": "shortcuts-card"
             },
             {
-                "enabled": false,
+                "enabled": true,
                 "id": "audio-card"
             },
             {
-                "enabled": false,
+                "enabled": true,
                 "id": "brightness-card"
             },
             {
@@ -269,13 +267,13 @@
         "shortcuts": {
             "left": [
                 {
-                    "id": "Network"
-                },
-                {
-                    "id": "Bluetooth"
-                },
-                {
                     "id": "WallpaperSelector"
+                },
+                {
+                    "id": "NoctaliaPerformance"
+                },
+                {
+                    "id": "AirplaneMode"
                 }
             ],
             "right": [
