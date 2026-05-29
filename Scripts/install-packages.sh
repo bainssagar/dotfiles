@@ -41,7 +41,6 @@ PACKAGES=(
   "eza"
   "unimatrix-git"
   "pokemon-colorscripts-git"
-  "clock-tui"
   "gnome-calendar"
   "gnome-clocks"
   "gnome-tweaks"
