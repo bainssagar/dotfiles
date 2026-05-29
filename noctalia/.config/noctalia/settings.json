@@ -86,6 +86,16 @@
                     "id": "Clock",
                     "tooltipFormat": "",
                     "useCustomFont": true
+                },
+                {
+                    "defaultSettings": {
+                        "customColor": "none",
+                        "showConditionIcon": true,
+                        "showTempUnit": true,
+                        "showTempValue": true,
+                        "tooltipOption": "everything"
+                    },
+                    "id": "plugin:weather-indicator"
                 }
             ],
             "left": [
@@ -102,7 +112,7 @@
                 {
                     "characterCount": 2,
                     "colorizeIcons": true,
-                    "emptyColor": "none",
+                    "emptyColor": "tertiary",
                     "enableScrollWheel": true,
                     "focusedColor": "primary",
                     "followFocusedScreen": false,
@@ -246,7 +256,7 @@
                 "id": "brightness-card"
             },
             {
-                "enabled": true,
+                "enabled": false,
                 "id": "weather-card"
             },
             {
