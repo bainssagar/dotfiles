@@ -59,6 +59,7 @@ PACKAGES=(
   "clamav"
   "lmstudio-bin"
   "picard"
+  "photogimp"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
