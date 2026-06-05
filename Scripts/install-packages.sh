@@ -59,6 +59,7 @@ PACKAGES=(
   "lmstudio-bin"
   "picard"
   "photogimp"
+  "toofan-bin"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
