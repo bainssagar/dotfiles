@@ -24,6 +24,7 @@ alias ls="eza --color=always --long --icons=always --no-time --group-directories
 alias matrix="unimatrix -s 97 -a"
 alias install-packages="bash ~/dotfiles/Scripts/install-packages.sh"
 alias qs-reload="pkill qs && qs -c noctalia-shell -d"
+alias fzf="fzf --layout=reverse --border=rounded --margin=3% --preview='bat {}'"
 
 #defaults
 export EDITOR="nvim"
