@@ -46,6 +46,9 @@ hl.bind(mainMod .. "+ SHIFT + right", hl.dsp.window.move({ direction = "right" }
 hl.bind(mainMod .. "+ SHIFT + up", hl.dsp.window.move({ direction = "up" }))
 hl.bind(mainMod .. "+ SHIFT + down", hl.dsp.window.move({ direction = "down" }))
 
+-- Move current window to next workspace
+hl.bind(mainMod .. " + SHIFT + TAB", hl.dsp.window.move({ workspace = "+1" }))
+
 -- Move current workspace to next monitor
 hl.bind(mainMod .. " + SHIFT + M", hl.dsp.workspace.move({ monitor = "+1" }))
 
