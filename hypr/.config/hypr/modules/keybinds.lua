@@ -68,6 +68,10 @@ hl.bind(mainMod .. " + TAB", hl.dsp.focus({ workspace = "e+1" }))
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true })
 hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
+-- Change column width by 5%
+hl.bind(mainMod .. " + bracketright", hl.dsp.layout("colresize +0.05"))
+hl.bind(mainMod .. " + bracketleft", hl.dsp.layout("colresize -0.05"))
+
 -- Laptop multimedia keys for volume and LCD brightness
 hl.bind(
 	"XF86AudioRaiseVolume",
