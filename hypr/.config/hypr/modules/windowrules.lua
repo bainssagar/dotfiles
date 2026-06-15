@@ -50,4 +50,5 @@ hl.window_rule({
 	match = { class = "^(com.gabm.satty)$" },
 	float = true,
 	center = true,
+	size = { 800, 600 },
 })
