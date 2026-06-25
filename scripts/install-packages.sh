@@ -60,7 +60,6 @@ PACKAGES=(
   "picard"
   "photogimp"
   "toofan-bin"
-  "proton-vpn-cli"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
