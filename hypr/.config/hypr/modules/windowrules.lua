@@ -34,6 +34,7 @@ hl.window_rule({
 	float = true,
 	center = true,
 	border_size = 0,
+	size = { 800, 600 },
 })
 
 hl.window_rule({
@@ -42,6 +43,7 @@ hl.window_rule({
 	float = true,
 	center = true,
 	border_size = 0,
+	size = { 800, 600 },
 })
 
 -- Make screenshot windows floating
