@@ -5,7 +5,7 @@ local terminal = "ghostty"
 local fileManager = "nautilus"
 local menu = "qs -c noctalia-shell ipc call launcher toggle"
 local editor = "ghostty -e nvim"
-local browser = "librewolf"
+local browser = "brave-bin"
 
 -- Window Behaviour
 hl.bind(mainMod .. " + Q", hl.dsp.window.close())

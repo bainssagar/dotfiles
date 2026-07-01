@@ -19,7 +19,7 @@ PACKAGES=(
   "udiskie"
   "cava"
   "ghostty"
-  "librewolf-bin"
+  "brave-origin-bin"
   "nautilus"
   "balena-etcher"
   "btop"
