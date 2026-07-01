@@ -31,7 +31,7 @@ export VISUAL="nvim"
 export SUDO_EDITOR="nvim"
 export PDFVIEWER="papers"
 export IMAGEVIEWER="loupe"
-export BROWSER="librewolf"
+export BROWSER="brave-origin"
 export MUSICPLAYER="amberol"
 export VIDEOVIEWER="showtime"
 
