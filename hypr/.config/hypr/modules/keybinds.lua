@@ -46,6 +46,14 @@ hl.bind(mainMod .. "+ SHIFT + right", hl.dsp.window.move({ direction = "right" }
 hl.bind(mainMod .. "+ SHIFT + up", hl.dsp.window.move({ direction = "up" }))
 hl.bind(mainMod .. "+ SHIFT + down", hl.dsp.window.move({ direction = "down" }))
 
+-- Change column width by 5%
+hl.bind(mainMod .. " + bracketright", hl.dsp.layout("colresize +0.05"))
+hl.bind(mainMod .. " + bracketleft", hl.dsp.layout("colresize -0.05"))
+
+-- Swap columns
+hl.bind(mainMod .. " + SHIFT + bracketright", hl.dsp.layout("swapcol r"))
+hl.bind(mainMod .. " + SHIFT + bracketleft", hl.dsp.layout("swapcol l"))
+
 -- Move current window to next/previous workspace
 hl.bind(mainMod .. " + SHIFT + TAB", hl.dsp.window.move({ workspace = "+1" }))
 hl.bind(mainMod .. " + ALT + TAB", hl.dsp.window.move({ workspace = "-1" }))
@@ -69,10 +77,6 @@ hl.bind(mainMod .. " + TAB", hl.dsp.focus({ workspace = "e+1" }))
 -- Move/resize windows with mainMod + LMB/RMB and dragging
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true })
 hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
-
--- Change column width by 5%
-hl.bind(mainMod .. " + bracketright", hl.dsp.layout("colresize +0.05"))
-hl.bind(mainMod .. " + bracketleft", hl.dsp.layout("colresize -0.05"))
 
 -- Laptop multimedia keys for volume and LCD brightness
 hl.bind(
