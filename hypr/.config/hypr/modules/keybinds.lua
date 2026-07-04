@@ -50,8 +50,9 @@ hl.bind(mainMod .. "+ SHIFT + down", hl.dsp.window.move({ direction = "down" }))
 hl.bind(mainMod .. " + SHIFT + TAB", hl.dsp.window.move({ workspace = "+1" }))
 hl.bind(mainMod .. " + ALT + TAB", hl.dsp.window.move({ workspace = "-1" }))
 
--- Move current workspace to next monitor
+-- Move current workspace to or focus next monitor
 hl.bind(mainMod .. " + SHIFT + M", hl.dsp.workspace.move({ monitor = "+1" }))
+hl.bind(mainMod .. " + ALT + M", hl.dsp.focus({ monitor = "+1" }))
 
 -- Switch workspaces with mainMod + [0-9] and Move active window to a workspace with mainMod + SHIFT + [0-9]
 for i = 1, 10 do
