@@ -60,6 +60,7 @@ PACKAGES=(
   "picard"
   "photogimp"
   "toofan-bin"
+  "blender"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
