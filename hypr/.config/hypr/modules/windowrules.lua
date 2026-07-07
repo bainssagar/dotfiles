@@ -54,3 +54,12 @@ hl.window_rule({
 	center = true,
 	size = { 800, 600 },
 })
+
+-- Make calculator windows floating
+hl.window_rule({
+	name = "galculator",
+	match = { class = "^galculator$" },
+	float = true,
+	center = true,
+	size = { 800, 600 },
+})
