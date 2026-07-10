@@ -3,7 +3,7 @@ local mainMod = "SUPER"
 -- Program Variables
 local terminal = "ghostty"
 local fileManager = "nautilus"
-local menu = "qs -c noctalia-shell ipc call launcher toggle"
+local menu = "noctalia msg panel-toggle launcher"
 local editor = "ghostty -e nvim"
 local browser = "brave-origin"
 
@@ -28,11 +28,12 @@ hl.bind(mainMod .. " + S", hl.dsp.exec_cmd("hyprshot -m window --raw | satty --f
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("hyprshot -m region --raw | satty --filename -"))
 
 -- Noctalia
-hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call notifications toggleHistory"))
-hl.bind(mainMod .. " + ESCAPE", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call sessionMenu toggle"))
-hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call controlCenter toggle"))
-hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call calendar toggle"))
-hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call media toggle"))
+hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("noctalia msg panel-toggle control-center"))
+hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd("noctalia msg panel-toggle control-center calendar"))
+hl.bind(mainMod .. " + V", hl.dsp.exec_cmd("noctalia msg panel-toggle clipboard"))
+hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("noctalia msg panel-toggle control-center media"))
+hl.bind(mainMod .. " + ESCAPE", hl.dsp.exec_cmd("noctalia msg panel-toggle session"))
+hl.bind(mainMod .. " + BACKSPACE", hl.dsp.exec_cmd("noctalia msg settings-open"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
