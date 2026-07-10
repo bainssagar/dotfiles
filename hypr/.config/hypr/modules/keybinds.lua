@@ -32,6 +32,7 @@ hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("noctalia msg panel-toggle control-ce
 hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd("noctalia msg panel-toggle control-center calendar"))
 hl.bind(mainMod .. " + V", hl.dsp.exec_cmd("noctalia msg panel-toggle clipboard"))
 hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("noctalia msg panel-toggle control-center media"))
+hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("noctalia msg panel-toggle control-center notifications"))
 hl.bind(mainMod .. " + ESCAPE", hl.dsp.exec_cmd("noctalia msg panel-toggle session"))
 hl.bind(mainMod .. " + BACKSPACE", hl.dsp.exec_cmd("noctalia msg settings-open"))
 
