@@ -13,3 +13,21 @@ hl.config({
 		enforce_permissions = true,
 	},
 })
+
+hl.permission({
+	binary = "/usr/bin/grim",
+	type = "screencopy",
+	mode = "allow",
+})
+
+hl.permission({
+	binary = "/usr/bin/noctalia",
+	type = "screencopy",
+	mode = "allow",
+})
+
+hl.permission({
+	binary = "/usr/(lib|libexec|lib64)/xdg-desktop-portal-hyprland",
+	type = "screencopy",
+	mode = "allow",
+})
