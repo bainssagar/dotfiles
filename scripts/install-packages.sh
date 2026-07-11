@@ -9,7 +9,7 @@ PACKAGES=(
   "fzf"
   "stow"
   "yazi"
-  "noctalia-git"
+  "noctalia"
   "hyprpolkitagent"
   "hyprpicker"
   "hyprshot"
