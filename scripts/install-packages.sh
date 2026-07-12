@@ -22,6 +22,7 @@ PACKAGES=(
   "nautilus"
   "balena-etcher"
   "btop"
+  "nvtop"
   "fastfetch"
   "kotofetch"
   "galculator"
