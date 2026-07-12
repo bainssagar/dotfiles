@@ -23,10 +23,6 @@ hl.bind(mainMod .. " + Y", hl.dsp.exec_cmd("ghostty -e yazi"))
 hl.bind(mainMod .. " + G", hl.dsp.exec_cmd("steam"))
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("localsend"))
 
--- Sceenshots
-hl.bind(mainMod .. " + S", hl.dsp.exec_cmd("hyprshot -m window --raw | satty --filename -"))
-hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("hyprshot -m region --raw | satty --filename -"))
-
 -- Noctalia
 hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("noctalia msg panel-toggle control-center"))
 hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd("noctalia msg panel-toggle control-center calendar"))
@@ -35,6 +31,8 @@ hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("noctalia msg panel-toggle control-ce
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("noctalia msg panel-toggle control-center notifications"))
 hl.bind(mainMod .. " + ESCAPE", hl.dsp.exec_cmd("noctalia msg panel-toggle session"))
 hl.bind(mainMod .. " + BACKSPACE", hl.dsp.exec_cmd("noctalia msg settings-open"))
+hl.bind(mainMod .. " + S", hl.dsp.exec_cmd("noctalia msg screenshot-fullscreen"))
+hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("noctalia msg screenshot-region"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
