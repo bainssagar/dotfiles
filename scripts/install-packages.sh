@@ -12,7 +12,6 @@ PACKAGES=(
   "noctalia"
   "hyprpolkitagent"
   "hyprpicker"
-  "hyprshot"
   "hyprlauncher"
   "wlsunset"
   "satty"
