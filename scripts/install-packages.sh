@@ -54,7 +54,6 @@ PACKAGES=(
   "orchis-theme"
   "tela-circle-icon-theme-black"
   "speedtest-cli"
-  "ani-cli"
   "clamav"
   "lmstudio-bin"
   "picard"
