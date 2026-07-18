@@ -61,6 +61,7 @@ PACKAGES=(
   "photogimp"
   "toofan-bin"
   "blender"
+  "zigoku"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
