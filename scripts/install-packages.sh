@@ -57,7 +57,7 @@ PACKAGES=(
   "clamav"
   "lmstudio-bin"
   "picard"
-  "photogimp"
+  "gimp"
   "toofan-bin"
   "blender"
   "zigoku"
