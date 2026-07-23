@@ -62,6 +62,7 @@ PACKAGES=(
   "blender"
   "zigoku"
   "zapzap"
+  "nvme-cli"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
