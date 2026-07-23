@@ -4,6 +4,7 @@
 # Add or remove items here. The script will automatically decide whether to use pacman or yay.
 PACKAGES=(
   "neovim"
+  "ly"
   "git"
   "lazygit"
   "fzf"
@@ -46,7 +47,6 @@ PACKAGES=(
   "gnome-tweaks"
   "libreoffice-fresh"
   "localsend"
-  "sddm-silent-theme"
   "protonplus"
   "ttf-google-sans"
   "ttf-google-sans-code-nf"
