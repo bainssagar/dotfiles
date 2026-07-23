@@ -61,6 +61,7 @@ PACKAGES=(
   "toofan-bin"
   "blender"
   "zigoku"
+  "zapzap"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
