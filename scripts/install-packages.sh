@@ -60,7 +60,7 @@ PACKAGES=(
   "gimp"
   "toofan-bin"
   "blender"
-  "zigoku"
+  "sabigoku"
   "zapzap"
   "nvme-cli"
 )
