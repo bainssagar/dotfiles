@@ -63,6 +63,7 @@ PACKAGES=(
   "sabigoku"
   "zapzap"
   "nvme-cli"
+  "tenki"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
