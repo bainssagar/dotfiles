@@ -1,6 +1,6 @@
 hl.env("XCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_SIZE", "24")
-hl.env("HYPRCURSOR_THEME", "Bibata-Modern-Ice")
+hl.env("HYPRCURSOR_THEME", "GoogleDot-White")
 hl.env("EDITOR", "nvim")
 
 hl.env("GDK_BACKEND", "wayland,x11,*")

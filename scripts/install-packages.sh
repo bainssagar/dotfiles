@@ -50,7 +50,7 @@ PACKAGES=(
   "protonplus"
   "ttf-google-sans"
   "ttf-google-sans-code-nf"
-  "bibata-cursor-theme-bin"
+  "googledot-cursor-theme"
   "orchis-theme"
   "tela-circle-icon-theme-black"
   "speedtest-cli"
