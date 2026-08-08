@@ -64,6 +64,7 @@ PACKAGES=(
   "zapzap"
   "nvme-cli"
   "tenki"
+  "neodlp"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
