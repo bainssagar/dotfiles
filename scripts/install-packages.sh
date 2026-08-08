@@ -63,7 +63,6 @@ PACKAGES=(
   "sabigoku"
   "zapzap"
   "nvme-cli"
-  "tenki"
   "neodlp"
 )
 
