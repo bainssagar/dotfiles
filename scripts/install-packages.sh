@@ -29,7 +29,6 @@ PACKAGES=(
   "galculator"
   "steam"
   "nwg-look"
-  "obs-studio"
   "qbittorrent"
   "rog-control-center"
   "tetris-cli"
