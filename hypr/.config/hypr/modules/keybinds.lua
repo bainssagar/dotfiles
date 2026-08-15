@@ -33,6 +33,7 @@ hl.bind(mainMod .. " + ESCAPE", hl.dsp.exec_cmd("noctalia msg panel-toggle sessi
 hl.bind(mainMod .. " + BACKSPACE", hl.dsp.exec_cmd("noctalia msg settings-open"))
 hl.bind(mainMod .. " + S", hl.dsp.exec_cmd("noctalia msg screenshot-fullscreen"))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("noctalia msg screenshot-region"))
+hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd("noctalia msg plugin noctalia/screen_recorder:service all toggle"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
