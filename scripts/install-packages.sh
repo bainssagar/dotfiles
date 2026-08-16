@@ -63,7 +63,6 @@ PACKAGES=(
   "sabigoku"
   "zapzap"
   "nvme-cli"
-  "neodlp"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
