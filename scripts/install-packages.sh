@@ -32,8 +32,6 @@ PACKAGES=(
   "nwg-look"
   "qbittorrent"
   "rog-control-center"
-  "tetris-cli"
-  "snake"
   "papers"
   "loupe"
   "amberol"
