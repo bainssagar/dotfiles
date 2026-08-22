@@ -14,6 +14,7 @@ PACKAGES=(
   "hyprpolkitagent"
   "hyprpicker"
   "hyprlauncher"
+  "hyprmod"
   "wlsunset"
   "satty"
   "gpu-screen-recorder"
