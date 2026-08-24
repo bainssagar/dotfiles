@@ -3,6 +3,7 @@
 # --- 1. Define your packages ---
 # Add or remove items here. The script will automatically decide whether to use pacman or yay.
 PACKAGES=(
+  "shelly"
   "neovim"
   "ly"
   "git"
