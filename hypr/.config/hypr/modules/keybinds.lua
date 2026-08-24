@@ -22,6 +22,7 @@ hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(editor))
 hl.bind(mainMod .. " + Y", hl.dsp.exec_cmd("ghostty -e yazi"))
 hl.bind(mainMod .. " + G", hl.dsp.exec_cmd("steam"))
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("localsend"))
+hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("shelly"))
 
 -- Noctalia
 hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("noctalia msg panel-toggle control-center"))
@@ -63,7 +64,7 @@ hl.bind(mainMod .. " + ALT + TAB", hl.dsp.window.move({ workspace = "-1" }))
 hl.bind(mainMod .. " + SHIFT + M", hl.dsp.workspace.move({ monitor = "+1" }))
 hl.bind(mainMod .. " + ALT + M", hl.dsp.focus({ monitor = "+1" }))
 
--- Switch workspaces with mainMod + [0-9] and Move active window to a workspace with mainMod + SHIFT + [0-9]
+-- Switch workspaces with mainMod + [0–9] and Move active window to a workspace with mainMod + SHIFT + [0–9]
 for i = 1, 10 do
 	local key = i % 10 -- 10 maps to key 0
 	hl.bind(mainMod .. " + " .. key, hl.dsp.focus({ workspace = i }))
