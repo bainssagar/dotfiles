@@ -25,6 +25,7 @@ hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("localsend"))
 
 -- Noctalia
 hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("noctalia msg panel-toggle control-center"))
+hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("noctalia msg panel-toggle wallpaper"))
 hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd("noctalia msg panel-toggle control-center calendar"))
 hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("noctalia msg panel-toggle control-center media"))
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("noctalia msg panel-toggle control-center notifications"))
