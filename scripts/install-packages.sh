@@ -36,7 +36,7 @@ PACKAGES=(
   "rog-control-center"
   "papers"
   "loupe"
-  "amberol"
+  "kopuz-bin"
   "showtime"
   "zoxide"
   "eza"
