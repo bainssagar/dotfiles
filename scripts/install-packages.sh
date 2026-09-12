@@ -52,7 +52,7 @@ PACKAGES=(
   "googledot-cursor-theme"
   "orchis-theme"
   "tela-circle-icon-theme-black"
-  "speedtest-cli"
+  "ookla-speedtest-bin"
   "clamav"
   "lmstudio-bin"
   "picard"
