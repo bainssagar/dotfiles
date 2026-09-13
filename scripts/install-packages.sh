@@ -60,6 +60,7 @@ PACKAGES=(
   "blender"
   "zapzap"
   "nvme-cli"
+  "tetrigo-bin"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
