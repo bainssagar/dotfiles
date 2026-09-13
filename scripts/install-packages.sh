@@ -17,7 +17,6 @@ PACKAGES=(
   "hyprlauncher"
   "hyprmod"
   "wlsunset"
-  "satty"
   "gpu-screen-recorder"
   "udiskie"
   "cava"
