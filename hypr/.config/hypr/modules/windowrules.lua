@@ -45,21 +45,3 @@ hl.window_rule({
 	border_size = 0,
 	size = { 800, 600 },
 })
-
--- Make screenshot windows floating
-hl.window_rule({
-	name = "satty-overlay",
-	match = { class = "^(com.gabm.satty)$" },
-	float = true,
-	center = true,
-	size = { 800, 600 },
-})
-
--- Make calculator windows floating
-hl.window_rule({
-	name = "galculator",
-	match = { class = "^galculator$" },
-	float = true,
-	center = true,
-	size = { 800, 600 },
-})
