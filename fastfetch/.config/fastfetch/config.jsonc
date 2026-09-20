@@ -44,24 +44,24 @@
       "format": "{$1}{name}  {#32}",
     },
     {
-      "key": "{#32}│ {#32}{icon} distro   {#32}│",
-      "type": "os",
-      "format": "{$1}{pretty-name} {codename} {#32}[{version}] [{arch}]",
-    },
-    {
       "key": "{#32}│ {#32}{icon} kernel   {#32}│",
       "type": "kernel",
       "format": "{$1}{sysname}  {#32}[v{release}]",
     },
     {
+      "key": "{#32}│ {#32}{icon} distro   {#32}│",
+      "type": "os",
+      "format": "{$1}{pretty-name} {codename} {#32}[{version}] [{arch}]",
+    },
+    {
+      "key": "{#32}│ {#32} wm       {#32}│",
+      "type": "wm",
+      "format": "{$1}{pretty-name}  {#32}[v{version}]",
+    },
+    {
       "key": "{#32}│ {#32} terminal {#32}│",
       "type": "terminal",
       "format": "{$1}{pretty-name}  {#32}[{version}]",
-    },
-    {
-      "key": "{#32}│ {#32} shell    {#32}│",
-      "type": "shell",
-      "format": "{$1}{pretty-name}  {#32}[v{version}]",
     },
     {
       "key": "{#32}│ {#32} pkgs     {#32}│",
