@@ -54,17 +54,17 @@
       "format": "{$1}{pretty-name} {codename} {#32}[{version}] [{arch}]",
     },
     {
-      "key": "{#32}│ {#32} wm       {#32}│",
+      "key": "{#32}│ {#32}{icon} wm       {#32}│",
       "type": "wm",
       "format": "{$1}{pretty-name}  {#32}[v{version}]",
     },
     {
-      "key": "{#32}│ {#32} terminal {#32}│",
+      "key": "{#32}│ {#32}{icon} terminal {#32}│",
       "type": "terminal",
       "format": "{$1}{pretty-name}  {#32}[{version}]",
     },
     {
-      "key": "{#32}│ {#32} pkgs     {#32}│",
+      "key": "{#32}│ {#32}{icon} pkgs     {#32}│",
       "type": "packages",
       "format": "{$1}{all}           {#32}",
     },
