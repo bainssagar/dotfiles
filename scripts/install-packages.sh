@@ -54,7 +54,6 @@ PACKAGES=(
   "ookla-speedtest-bin"
   "clamav"
   "lmstudio-bin"
-  "picard"
   "gimp"
   "toofan-bin"
   "blender"
