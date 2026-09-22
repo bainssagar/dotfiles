@@ -47,11 +47,9 @@ hl.bind(mainMod .. "+ SHIFT + right", hl.dsp.window.move({ direction = "right" }
 hl.bind(mainMod .. "+ SHIFT + up", hl.dsp.window.move({ direction = "up" }))
 hl.bind(mainMod .. "+ SHIFT + down", hl.dsp.window.move({ direction = "down" }))
 
--- Change column width by 5%
+-- Column Behaviour (Scrolling layout)
 hl.bind(mainMod .. " + bracketright", hl.dsp.layout("colresize +0.05"))
 hl.bind(mainMod .. " + bracketleft", hl.dsp.layout("colresize -0.05"))
-
--- Swap columns
 hl.bind(mainMod .. " + SHIFT + bracketright", hl.dsp.layout("swapcol r"))
 hl.bind(mainMod .. " + SHIFT + bracketleft", hl.dsp.layout("swapcol l"))
 
