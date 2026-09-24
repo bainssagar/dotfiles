@@ -25,7 +25,6 @@ PACKAGES=(
   "nautilus"
   "balena-etcher"
   "btop"
-  "nvtop"
   "fastfetch"
   "kotofetch"
   "galculator"
@@ -58,7 +57,6 @@ PACKAGES=(
   "toofan-bin"
   "blender"
   "zapzap"
-  "nvme-cli"
   "tetrigo-bin"
 )
 
