@@ -12,6 +12,7 @@ PACKAGES=(
   "stow"
   "yazi"
   "noctalia"
+  "matugen"
   "hyprpolkitagent"
   "hyprpicker"
   "hyprlauncher"
