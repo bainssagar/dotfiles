@@ -13,7 +13,6 @@ PACKAGES=(
   "yazi"
   "noctalia"
   "matugen"
-  "hyprpolkitagent"
   "hyprpicker"
   "hyprlauncher"
   "hyprmod"
@@ -58,7 +57,6 @@ PACKAGES=(
   "toofan-bin"
   "blender"
   "zapzap"
-  "tetrigo-bin"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
