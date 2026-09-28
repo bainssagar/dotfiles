@@ -57,6 +57,7 @@ PACKAGES=(
   "toofan-bin"
   "blender"
   "zapzap"
+  "vitetris"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
