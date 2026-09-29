@@ -4,6 +4,7 @@ font-size = 14
 confirm-close-surface = false
 
 window-decoration = false
+background-opacity = 0.9
 
 window-padding-x = 10
 window-padding-y = 10
