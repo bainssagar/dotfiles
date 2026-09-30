@@ -54,6 +54,8 @@ PACKAGES=(
   "blender"
   "zapzap"
   "vitetris"
+  "virt-manager"
+  "qemu"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
