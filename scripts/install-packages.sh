@@ -12,7 +12,6 @@ PACKAGES=(
   "hyprland"
   "polkit"
   "hyprpicker"
-  "hyprlauncher"
   "hyprmod"
   "iio-hyprland-git"
   "wlsunset"
