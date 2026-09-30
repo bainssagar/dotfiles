@@ -9,6 +9,8 @@ PACKAGES=(
   "stow"
   "yazi"
   "noctalia"
+  "hyprland"
+  "polkit"
   "hyprpicker"
   "hyprlauncher"
   "hyprmod"
