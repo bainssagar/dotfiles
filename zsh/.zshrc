@@ -2,7 +2,7 @@
 source /usr/share/cachyos-zsh-config/cachyos-config.zsh
 
 #startup commands
-kotofetch
+kotofetch --source=true
 
 #aliases
 alias rm="rm -I --preserve-root"
