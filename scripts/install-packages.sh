@@ -14,6 +14,7 @@ PACKAGES=(
   "hyprpicker"
   "hyprmod"
   "iio-hyprland-git"
+  "wvkbd"
   "wlsunset"
   "matugen"
   "gpu-screen-recorder"
