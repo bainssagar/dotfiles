@@ -22,7 +22,6 @@ PACKAGES=(
   "ghostty"
   "brave-origin-bin"
   "nautilus"
-  "balena-etcher"
   "kotofetch"
   "galculator"
   "steam"
