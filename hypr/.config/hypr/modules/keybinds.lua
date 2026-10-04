@@ -18,9 +18,6 @@ hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + F", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(editor))
-hl.bind(mainMod .. " + Y", hl.dsp.exec_cmd("ghostty -e yazi"))
-hl.bind(mainMod .. " + G", hl.dsp.exec_cmd("steam"))
-hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("localsend"))
 
 -- Noctalia
 hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("noctalia msg panel-toggle control-center"))
