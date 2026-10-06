@@ -48,6 +48,7 @@ PACKAGES=(
   "tela-circle-icon-theme-black"
   "ookla-speedtest-bin"
   "clamav"
+  "clamui"
   "lmstudio-bin"
   "gimp"
   "toofan-bin"
