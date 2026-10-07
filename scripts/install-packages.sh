@@ -14,6 +14,7 @@ PACKAGES=(
   "hyprpicker"
   "hyprmod"
   "iio-hyprland-git"
+  "hyprland-focused-booster"
   "wvkbd"
   "wlsunset"
   "matugen"
