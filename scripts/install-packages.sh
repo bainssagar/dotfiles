@@ -53,7 +53,6 @@ PACKAGES=(
   "vitetris"
   "virt-manager"
   "qemu"
-  "tldraw-offline-bin"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
