@@ -7,7 +7,7 @@ PACKAGES=(
   "ly"
   "lazygit"
   "stow"
-  "yazi"
+  "superfile"
   "noctalia"
   "hyprland"
   "polkit"
