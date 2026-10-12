@@ -45,7 +45,6 @@ PACKAGES=(
   "orchis-theme"
   "tela-circle-icon-theme-black"
   "ookla-speedtest-bin"
-  "clamav"
   "clamui"
   "lmstudio-bin"
   "toofan-bin"
