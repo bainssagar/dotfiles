@@ -14,7 +14,7 @@ PACKAGES=(
   "kotofetch"
   "steam"
   "nwg-look"
-  "gnome-software"
+  "extension-manager"
   "qbittorrent"
   "rog-control-center"
   "zoxide"
