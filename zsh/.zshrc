@@ -25,7 +25,6 @@ export SUDO_EDITOR="nvim"
 export PDFVIEWER="papers"
 export IMAGEVIEWER="loupe"
 export BROWSER="brave-origin"
-export MUSICPLAYER="amberol"
 export VIDEOVIEWER="showtime"
 
 #zoxide
@@ -34,3 +33,5 @@ eval "$(zoxide init zsh)"
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/sbains/.lmstudio/bin"
 # End of LM Studio CLI section
+
+case ":$PATH:" in *":$HOME/.local/bin:"*) ;; *) export PATH="$HOME/.local/bin:$PATH" ;; esac
