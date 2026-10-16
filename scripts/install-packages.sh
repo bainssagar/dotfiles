@@ -35,6 +35,7 @@ PACKAGES=(
   "virt-manager"
   "qemu"
   "z13gui-bin"
+  "gnome-menus"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
