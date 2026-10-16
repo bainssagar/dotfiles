@@ -24,7 +24,7 @@ PACKAGES=(
   "ttf-google-sans-code-nf"
   "googledot-cursor-theme"
   "orchis-theme"
-  "tela-circle-icon-theme"
+  "tela-circle-icon-theme-black"
   "ookla-speedtest-bin"
   "clamui"
   "lmstudio-bin"
