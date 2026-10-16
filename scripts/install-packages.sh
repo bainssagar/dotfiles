@@ -31,6 +31,7 @@ PACKAGES=(
   "toofan-bin"
   "zapzap"
   "vitetris"
+  "gradia"
   "virt-manager"
   "qemu"
   "z13gui-bin"
