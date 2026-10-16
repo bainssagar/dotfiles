@@ -37,6 +37,7 @@ PACKAGES=(
   "vitetris"
   "virt-manager"
   "qemu"
+  "z13gui-bin"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
