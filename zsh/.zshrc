@@ -16,16 +16,11 @@ alias cd="z"
 alias ls="eza --color=always --long --icons=always --no-time --group-directories-first"
 alias matrix="unimatrix -s 97 -a"
 alias install-packages="bash ~/dotfiles/scripts/install-packages.sh"
-alias fzf="fzf --layout=reverse --border=rounded --margin=3% --preview='bat {}'"
 
 #defaults
 export EDITOR="nvim"
 export VISUAL="nvim"
 export SUDO_EDITOR="nvim"
-export PDFVIEWER="papers"
-export IMAGEVIEWER="loupe"
-export BROWSER="brave-origin"
-export VIDEOVIEWER="showtime"
 
 #zoxide
 eval "$(zoxide init zsh)"
@@ -33,5 +28,3 @@ eval "$(zoxide init zsh)"
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/sbains/.lmstudio/bin"
 # End of LM Studio CLI section
-
-case ":$PATH:" in *":$HOME/.local/bin:"*) ;; *) export PATH="$HOME/.local/bin:$PATH" ;; esac
