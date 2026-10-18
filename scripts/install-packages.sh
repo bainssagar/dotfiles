@@ -8,12 +8,10 @@ PACKAGES=(
   "zoxide"
   "eza"
   "qemu"
-  "gnome-menus"
   # GUI Apps
   "ghostty"
   "brave-origin-bin"
   "zed"
-  "extension-manager"
   "qbittorrent"
   "rog-control-center"
   "libreoffice-fresh"
@@ -22,7 +20,6 @@ PACKAGES=(
   "clamui"
   "lmstudio-bin"
   "zapzap"
-  "gradia"
   "virt-manager"
   "z13gui-bin"
   # Themes/Fonts
@@ -40,6 +37,18 @@ PACKAGES=(
   "ookla-speedtest-bin"
   "toofan-bin"
   "vitetris"
+  # GNOME Specific
+  "gradia"
+  "extension-manager"
+  "gnome-menus"
+  "gnome-shell-extension-asusctl-gnome"
+  "gnome-shell-extension-dash-to-dock"
+  "gnome-shell-extension-appindicator"
+  "gnome-shell-extension-arc-menu"
+  "gnome-shell-extension-weather-oclock"
+  "gnome-shell-extension-clipboard-history"
+  "gnome-shell-extension-blur-my-shell"
+  "gnome-shell-extension-just-perfection-desktop"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
