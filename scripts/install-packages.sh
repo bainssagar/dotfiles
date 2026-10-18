@@ -41,14 +41,6 @@ PACKAGES=(
   "gradia"
   "extension-manager"
   "gnome-menus"
-  "gnome-shell-extension-asusctl-gnome"
-  "gnome-shell-extension-dash-to-dock"
-  "gnome-shell-extension-appindicator"
-  "gnome-shell-extension-arc-menu"
-  "gnome-shell-extension-weather-oclock"
-  "gnome-shell-extension-clipboard-history"
-  "gnome-shell-extension-blur-my-shell"
-  "gnome-shell-extension-just-perfection-desktop"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
