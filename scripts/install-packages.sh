@@ -39,6 +39,9 @@ PACKAGES=(
   "vitetris"
   # GNOME Specific
   "gradia"
+  "gnome-clocks"
+  "gnome-calendar"
+  "gnome-maps"
   "extension-manager"
   "gnome-menus"
 )
