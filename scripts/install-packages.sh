@@ -39,13 +39,14 @@ PACKAGES=(
   "toofan-bin"
   "vitetris"
   # GNOME Specific
-  "gradia"
   "gnome-music"
   "gnome-clocks"
   "gnome-calendar"
   "gnome-maps"
   "extension-manager"
   "gdm-settings"
+  "gradia"
+  "refine"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
