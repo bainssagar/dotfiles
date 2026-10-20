@@ -25,6 +25,9 @@ export SUDO_EDITOR="nvim"
 #zoxide
 eval "$(zoxide init zsh)"
 
+#starship
+eval "$(starship init zsh)"
+
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/sbains/.lmstudio/bin"
 # End of LM Studio CLI section

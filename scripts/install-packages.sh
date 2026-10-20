@@ -8,6 +8,7 @@ PACKAGES=(
   "zoxide"
   "eza"
   "qemu"
+  "starship"
   # GUI Apps
   "ghostty"
   "brave-origin-bin"
