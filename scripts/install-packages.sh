@@ -44,7 +44,7 @@ PACKAGES=(
   "gnome-calendar"
   "gnome-maps"
   "extension-manager"
-  "gnome-menus"
+  "gdm-settings"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
