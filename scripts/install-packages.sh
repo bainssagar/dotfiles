@@ -21,7 +21,6 @@ PACKAGES=(
   "clamui"
   "lmstudio-bin"
   "zapzap"
-  "virt-manager"
   "z13gui-bin"
   # Themes/Fonts
   "ttf-google-sans"
@@ -43,6 +42,7 @@ PACKAGES=(
   "gnome-clocks"
   "gnome-calendar"
   "gnome-maps"
+  "gnome-boxes"
   "extension-manager"
   "gdm-settings"
   "gradia"
