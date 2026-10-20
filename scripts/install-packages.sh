@@ -25,9 +25,9 @@ PACKAGES=(
   # Themes/Fonts
   "ttf-google-sans"
   "ttf-google-sans-code-nf"
-  "qogir-cursor-theme"
-  "qogir-gtk-theme"
-  "qogir-icon-theme"
+  "googledot-cursor-theme"
+  "orchis-theme"
+  "tela-circle-icon-theme-black"
   # Terminal Apps
   "lazygit"
   "superfile"
