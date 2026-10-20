@@ -40,6 +40,7 @@ PACKAGES=(
   "vitetris"
   # GNOME Specific
   "gradia"
+  "gnome-music"
   "gnome-clocks"
   "gnome-calendar"
   "gnome-maps"
