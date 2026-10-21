@@ -38,7 +38,6 @@ PACKAGES=(
   "toofan-bin"
   "vitetris"
   # GNOME Specific
-  "gnome-music"
   "gnome-clocks"
   "gnome-calendar"
   "gnome-maps"
