@@ -24,7 +24,7 @@ PACKAGES=(
   "z13gui-bin"
   # Themes/Fonts
   "ttf-google-sans"
-  "ttf-google-sans-code-nf"
+  "ttf-google-sans-code-vf"
   "googledot-cursor-theme"
   "orchis-theme"
   "tela-circle-icon-theme-black"
