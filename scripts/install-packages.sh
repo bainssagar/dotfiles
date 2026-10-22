@@ -21,7 +21,7 @@ PACKAGES=(
   "clamui"
   "lmstudio-bin"
   "zapzap"
-  "z13gui-bin"
+  "z13gui-plus-bin"
   # Themes/Fonts
   "ttf-google-sans"
   "ttf-google-sans-code-vf"
