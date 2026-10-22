@@ -42,6 +42,7 @@ PACKAGES=(
   "gnome-calendar"
   "gnome-maps"
   "gnome-boxes"
+  "gnome-characters"
   "extension-manager"
   "gdm-settings"
   "gradia"
