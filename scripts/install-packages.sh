@@ -9,6 +9,7 @@ PACKAGES=(
   "eza"
   "qemu"
   "starship"
+  "pass"
   # GUI Apps
   "ghostty"
   "brave-origin-bin"
