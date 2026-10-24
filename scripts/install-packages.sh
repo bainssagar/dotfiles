@@ -43,6 +43,7 @@ PACKAGES=(
   "gnome-clocks"
   "gnome-calendar"
   "gnome-maps"
+  "gnome-weather"
   "gnome-boxes"
   "gnome-characters"
   "gnome-music"
