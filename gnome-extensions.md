@@ -11,4 +11,4 @@
 - [ ] Wallpaper Slideshow
 - [ ] Auto Accent Color
 - [ ] ChromaLeon
-- [ ] Tiling (PaperWM/Mosaic/TilingShell)
+- [ ] PaperWM
