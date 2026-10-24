@@ -10,6 +10,7 @@ PACKAGES=(
   "qemu"
   "starship"
   "pass"
+  "iio-sensor-proxy"
   # GUI Apps
   "ghostty"
   "brave-origin-bin"
