@@ -45,11 +45,11 @@ PACKAGES=(
   "gnome-maps"
   "gnome-boxes"
   "gnome-characters"
+  "gnome-music"
   "extension-manager"
   "gdm-settings"
   "gradia"
   "refine"
-  "amberol"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
