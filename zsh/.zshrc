@@ -11,16 +11,15 @@ alias i2="yay -S"
 alias s="pacman -Ss"
 alias s2="yay -Ss"
 alias r="sudo pacman -Rnu"
-alias vim="nvim"
 alias cd="z"
 alias ls="eza --color=always --long --icons=always --no-time --group-directories-first"
 alias matrix="unimatrix -s 97 -a"
 alias install-packages="bash ~/dotfiles/scripts/install-packages.sh"
 
 #defaults
-export EDITOR="nvim"
-export VISUAL="nvim"
-export SUDO_EDITOR="nvim"
+export EDITOR="zeditor"
+export VISUAL="zeditor"
+export SUDO_EDITOR="zeditor"
 
 #zoxide
 eval "$(zoxide init zsh)"
