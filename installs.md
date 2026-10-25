@@ -9,7 +9,7 @@
 - [ ] Clipboard Indicator
 - [ ] Tray Icons/App Indicators
 - [ ] Weather
-- [ ] Media Player
+- [ ] Media Controls
 - [ ] Wallpaper Slideshow
 - [ ] Auto Accent Color
 - [ ] ChromaLeon
