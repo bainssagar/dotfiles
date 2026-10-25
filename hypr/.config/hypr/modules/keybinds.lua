@@ -4,7 +4,7 @@ local mainMod = "SUPER"
 local terminal = "ghostty"
 local fileManager = "nautilus"
 local menu = "noctalia msg panel-toggle launcher"
-local editor = "ghostty -e nvim"
+local editor = "zeditor"
 local browser = "brave-origin"
 
 -- Window Behaviour
