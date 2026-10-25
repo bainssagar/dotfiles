@@ -8,7 +8,7 @@
 - [ ] Just Perfection
 - [ ] Clipboard Indicator
 - [ ] Tray Icons/App Indicators
-- [ ] Weather
+- [ ] Weather O'Clock
 - [ ] Media Controls
 - [ ] Wallpaper Slideshow
 - [ ] Auto Accent Color
