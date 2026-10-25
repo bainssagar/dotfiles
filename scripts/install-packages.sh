@@ -11,6 +11,7 @@ PACKAGES=(
   "starship"
   "pass"
   "iio-sensor-proxy"
+  "nvim"
   # GUI Apps
   "ghostty"
   "brave-origin-bin"
