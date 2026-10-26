@@ -50,7 +50,6 @@ PACKAGES=(
   "gdm-settings"
   "gradia"
   "refine"
-  "amberol"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---

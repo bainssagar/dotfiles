@@ -1,5 +1,9 @@
 # Things to Install
 
+## Apps
+
+- [ ] Spun (Github)
+
 ## GNOME Extensions
 
 - [ ] Extension List
