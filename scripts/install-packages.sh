@@ -18,13 +18,13 @@ PACKAGES=(
   "zed"
   "qbittorrent"
   "rog-control-center"
+  "z13gui-plus-bin"
   "libreoffice-fresh"
   "localsend"
   "protonplus"
   "clamui"
   "lmstudio-bin"
   "zapzap"
-  "z13gui-plus-bin"
   # Themes/Fonts
   "ttf-google-sans"
   "ttf-google-sans-code-vf"
@@ -43,15 +43,14 @@ PACKAGES=(
   # GNOME Specific
   "gnome-clocks"
   "gnome-calendar"
-  "gnome-maps"
   "gnome-weather"
   "gnome-boxes"
   "gnome-characters"
-  "gnome-music"
   "extension-manager"
   "gdm-settings"
   "gradia"
   "refine"
+  "amberol"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
