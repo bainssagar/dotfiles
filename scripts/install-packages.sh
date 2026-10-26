@@ -16,6 +16,7 @@ PACKAGES=(
   "ghostty"
   "brave-origin-bin"
   "zed"
+  "aulos-bin"
   "qbittorrent"
   "rog-control-center"
   "z13gui-plus-bin"
