@@ -6,10 +6,10 @@
 - [ ] Blur My Shell
 - [ ] Dash to Dock
 - [ ] Just Perfection
-- [ ] Clipboard Indicator
-- [ ] Tray Icons/App Indicators
+- [ ] Clipboard History (SUPERCILEX)
+- [ ] AppIndicator and KStatusNotifierItem Support
 - [ ] Weather O'Clock
-- [ ] Media Controls
+- [ ] Advanced Media Controller
 - [ ] Wallpaper Slideshow
 - [ ] Auto Accent Color
 - [ ] ChromaLeon
