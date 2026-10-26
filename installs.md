@@ -14,6 +14,7 @@
 - [ ] Auto Accent Color
 - [ ] ChromaLeon
 - [ ] PaperWM
+- [ ] Alphabetical App Grid
 
 ## Browser Extensions
 
