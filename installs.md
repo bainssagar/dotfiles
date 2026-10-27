@@ -23,3 +23,4 @@
 - [ ] Zen Internet
 - [ ] Tabliss
 - [ ] Video to MP3
+- [ ] Privacy Badger
