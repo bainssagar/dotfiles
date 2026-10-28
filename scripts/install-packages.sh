@@ -17,7 +17,6 @@ PACKAGES=(
   "brave-origin-bin"
   "zed"
   "qbittorrent"
-  "rog-control-center"
   "z13gui-plus-bin"
   "libreoffice-fresh"
   "localsend"
