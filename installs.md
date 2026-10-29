@@ -12,6 +12,7 @@
 - [ ] Medialine
 - [ ] Wallpaper Slideshow
 - [ ] ChromaLeon
+- [ ] Auto Accent Color
 - [ ] Alphabetical App Grid
 - [ ] PaperWM
 

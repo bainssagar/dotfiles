@@ -29,7 +29,7 @@ PACKAGES=(
   "ttf-google-sans-code-vf"
   "googledot-cursor-theme"
   "orchis-theme"
-  "tela-circle-icon-theme-black"
+  "morewaita-icon-theme"
   # Terminal Apps
   "lazygit"
   "superfile"
