@@ -8,7 +8,7 @@
 - [ ] Just Perfection
 - [ ] AppIndicator and KStatusNotifierItem Support
 - [ ] Clipboard History (SUPERCILEX)
-- [ ] Weather Prime
+- [ ] Weather O'Clock
 - [ ] Medialine
 - [ ] Wallpaper Slideshow
 - [ ] ChromaLeon
