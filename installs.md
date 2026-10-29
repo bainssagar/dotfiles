@@ -6,15 +6,14 @@
 - [ ] Blur My Shell
 - [ ] Dash to Dock
 - [ ] Just Perfection
-- [ ] Clipboard History (SUPERCILEX)
 - [ ] AppIndicator and KStatusNotifierItem Support
+- [ ] Clipboard History (SUPERCILEX)
 - [ ] Weather O'Clock
 - [ ] Medialine
 - [ ] Wallpaper Slideshow
-- [ ] Auto Accent Color
 - [ ] ChromaLeon
-- [ ] PaperWM
 - [ ] Alphabetical App Grid
+- [ ] PaperWM
 
 ## Browser Extensions
 
