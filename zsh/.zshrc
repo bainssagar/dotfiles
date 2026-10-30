@@ -5,7 +5,6 @@ source /usr/share/cachyos-zsh-config/cachyos-config.zsh
 kotofetch --source=true
 
 #aliases
-alias rm="rm -I --preserve-root"
 alias i="sudo pacman -S"
 alias i2="yay -S"
 alias s="pacman -Ss"
@@ -29,4 +28,3 @@ eval "$(starship init zsh)"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/sbains/.lmstudio/bin"
-# End of LM Studio CLI section

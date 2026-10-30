@@ -54,9 +54,14 @@
       "format": "{$1}{pretty-name} {codename} {#32}[{version}] [{arch}]",
     },
     {
+      "key": "{#32}│ {#32}{icon} de       {#32}│",
+      "type": "de",
+      "format": "{$1}{pretty-name}  {#32}[v{version}]",
+    },
+    {
       "key": "{#32}│ {#32}{icon} wm       {#32}│",
       "type": "wm",
-      "format": "{$1}{pretty-name}  {#32}[v{version}]",
+      "format": "{$1}{pretty-name}  ",
     },
     {
       "key": "{#32}│ {#32}{icon} terminal {#32}│",
