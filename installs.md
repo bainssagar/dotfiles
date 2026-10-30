@@ -9,7 +9,7 @@
 - [ ] AppIndicator and KStatusNotifierItem Support
 - [ ] Clipboard History (SUPERCILEX)
 - [ ] Weather O'Clock
-- [ ] Medialine/Dynamic Music Pill
+- [ ] Medialine
 - [ ] Wallpaper Slideshow
 - [ ] ChromaLeon (+ Preload)
 - [ ] Auto Accent Color
