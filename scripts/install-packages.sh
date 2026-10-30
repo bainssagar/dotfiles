@@ -43,6 +43,7 @@ PACKAGES=(
   "gnome-clocks"
   "gnome-calendar"
   "gnome-weather"
+  "gnome-maps"
   "gnome-boxes"
   "gnome-characters"
   "extension-manager"
@@ -51,6 +52,10 @@ PACKAGES=(
   "gradia"
   "refine"
   "fragments"
+  "dialect"
+  "impression"
+  "secrets"
+  "valuta"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
