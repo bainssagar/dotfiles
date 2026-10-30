@@ -28,8 +28,8 @@ PACKAGES=(
   "ttf-google-sans-code-vf"
   "ttf-google-sans-code-nf"
   "googledot-cursor-theme"
-  "graphite-gtk-theme-fixed-git"
-  "morewaita-icon-theme"
+  "orchis-theme"
+  "tela-circle-icon-theme-black"
   # Terminal Apps
   "lazygit"
   "superfile"
