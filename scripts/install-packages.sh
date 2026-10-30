@@ -9,9 +9,8 @@ PACKAGES=(
   "eza"
   "qemu"
   "starship"
-  "pass"
   "iio-sensor-proxy"
-  "nvim"
+  "neovim"
   # GUI Apps
   "ghostty"
   "brave-origin-bin"

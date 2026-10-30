@@ -11,7 +11,6 @@
 - [ ] Weather O'Clock
 - [ ] Medialine
 - [ ] Wallpaper Slideshow
-- [ ] ChromaLeon (+ Preload)
 - [ ] Auto Accent Color
 - [ ] Alphabetical App Grid
 - [ ] PaperWM
