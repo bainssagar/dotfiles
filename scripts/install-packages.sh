@@ -54,7 +54,6 @@ PACKAGES=(
   "dialect"
   "impression"
   "secrets"
-  "valuta"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
