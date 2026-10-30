@@ -23,7 +23,6 @@ PACKAGES=(
   "clamui"
   "lmstudio-bin"
   "zapzap"
-  "qbittorrent"
   # Themes/Fonts
   "ttf-google-sans"
   "ttf-google-sans-code-vf"
@@ -51,6 +50,7 @@ PACKAGES=(
   "amberol"
   "gradia"
   "refine"
+  "fragments"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
