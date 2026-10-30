@@ -28,7 +28,7 @@ PACKAGES=(
   "ttf-google-sans-code-vf"
   "ttf-google-sans-code-nf"
   "googledot-cursor-theme"
-  "orchis-theme"
+  "graphite-gtk-theme-fixed-git"
   "morewaita-icon-theme"
   # Terminal Apps
   "lazygit"
