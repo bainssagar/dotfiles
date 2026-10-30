@@ -3,8 +3,8 @@ font-size = 14
 
 confirm-close-surface = false
 
-window-decoration = false
-background-opacity = 0.9
+window-decoration = true
+background-opacity = 0.8
 background-blur = true
 
 window-padding-x = 10
@@ -17,4 +17,4 @@ shell-integration-features = no-cursor
 custom-shader = shaders/cursor_warp.glsl
 custom-shader-animation = always
 
-theme = noctalia
+theme = Kanso Zen
