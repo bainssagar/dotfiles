@@ -10,6 +10,7 @@
 - [ ] Clipboard History (SUPERCILEX)
 - [ ] Weather O'Clock
 - [ ] Medialine
+- [ ] Hide Cursor
 - [ ] Wallpaper Slideshow
 - [ ] Auto Accent Color
 - [ ] Alphabetical App Grid
