@@ -31,7 +31,6 @@ PACKAGES=(
   # Themes/Fonts
   "ttf-google-sans"
   "ttf-google-sans-code-vf"
-  "ttf-google-sans-code-nf"
   "googledot-cursor-theme"
   "tela-circle-icon-theme-black"
   # GUI Apps
