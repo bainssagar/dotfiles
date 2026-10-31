@@ -11,7 +11,7 @@
 - [ ] Weather O'Clock
 - [ ] Medialine
 - [ ] Wallpaper Slideshow
-- [ ] Open Bar
+- [ ] Auto Accent Color
 - [ ] Alphabetical App Grid
 - [ ] PaperWM
 
