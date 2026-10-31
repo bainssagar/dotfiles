@@ -11,6 +11,7 @@ PACKAGES=(
   "starship"
   "iio-sensor-proxy"
   "neovim"
+  "tealdeer"
   # GNOME Specific
   "gnome-clocks"
   "gnome-calendar"
