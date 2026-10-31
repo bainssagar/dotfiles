@@ -1,5 +1,7 @@
-font-family = Google Sans Code NF
-font-size = 14
+theme = Kanso Zen
+
+font-family = Google Sans Code VF
+font-size = 16
 
 confirm-close-surface = false
 
@@ -16,5 +18,3 @@ shell-integration-features = no-cursor
 
 custom-shader = shaders/cursor_warp.glsl
 custom-shader-animation = always
-
-theme = Kanso Zen
