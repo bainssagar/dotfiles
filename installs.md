@@ -13,7 +13,6 @@
 - [ ] Wallpaper Slideshow
 - [ ] Alphabetical App Grid
 - [ ] Auto Accent Color
-- [ ] PaperWM
 
 ## Browser Extensions
 
