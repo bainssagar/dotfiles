@@ -12,6 +12,7 @@ PACKAGES=(
   "iio-sensor-proxy"
   "neovim"
   "tealdeer"
+  "bat"
   # GNOME Specific
   "gnome-clocks"
   "gnome-calendar"

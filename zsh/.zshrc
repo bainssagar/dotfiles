@@ -12,6 +12,7 @@ alias s2="yay -Ss"
 alias r="sudo pacman -Rnu"
 alias cd="z"
 alias ls="eza --color=always --long --icons=always --no-time --group-directories-first"
+alias cat="bat"
 alias matrix="unimatrix -s 97 -a"
 alias install-packages="bash ~/dotfiles/scripts/install-packages.sh"
 
