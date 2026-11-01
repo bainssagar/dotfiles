@@ -44,6 +44,7 @@ PACKAGES=(
   "clamui"
   "lmstudio-bin"
   "zapzap"
+  "gpu-screen-recorder-ui"
   # TUI Apps
   "lazygit"
   "superfile"
