@@ -34,6 +34,7 @@ PACKAGES=(
   "ttf-google-sans-code-vf"
   "googledot-cursor-theme"
   "tela-circle-icon-theme-black"
+  "orchis-theme"
   # GUI Apps
   "ghostty"
   "brave-origin-bin"
