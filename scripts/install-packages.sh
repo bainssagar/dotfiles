@@ -17,7 +17,6 @@ PACKAGES=(
   "gnome-clocks"
   "gnome-calendar"
   "gnome-weather"
-  "gnome-maps"
   "gnome-boxes"
   "gnome-characters"
   "extension-manager"
