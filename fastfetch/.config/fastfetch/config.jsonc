@@ -59,11 +59,6 @@
       "format": "{$1}{pretty-name}  {#32}[v{version}]",
     },
     {
-      "key": "{#32}│ {#32}{icon} wm       {#32}│",
-      "type": "wm",
-      "format": "{$1}{pretty-name}  ",
-    },
-    {
       "key": "{#32}│ {#32}{icon} terminal {#32}│",
       "type": "terminal",
       "format": "{$1}{pretty-name}  {#32}[{version}]",
