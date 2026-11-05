@@ -6,7 +6,7 @@
 - [ ] Dash to Dock
 - [ ] Just Perfection
 - [ ] AppIndicator and KStatusNotifierItem Support
-- [ ] Clipboard History (SUPERCILEX)
+- [ ] Clipboard History
 - [ ] Weather O'Clock
 - [ ] Medialine
 - [ ] Hide Cursor
@@ -18,7 +18,6 @@
 
 - [ ] Dark Reader
 - [ ] ProtonVPN
-- [ ] Zen Internet
 - [ ] Tabliss
 - [ ] Video to MP3
 - [ ] Privacy Badger
