@@ -19,7 +19,7 @@ alias install-packages="bash ~/dotfiles/scripts/install-packages.sh"
 #defaults
 export EDITOR="zeditor"
 export VISUAL="zeditor"
-export SUDO_EDITOR="zeditor"
+export SUDO_EDITOR="nvim"
 
 #zoxide
 eval "$(zoxide init zsh)"
