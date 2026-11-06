@@ -13,6 +13,7 @@
 - [ ] Wallpaper Slideshow
 - [ ] Alphabetical App Grid
 - [ ] Auto Accent Color
+- [ ] Caffeine
 
 ## Browser Extensions
 
