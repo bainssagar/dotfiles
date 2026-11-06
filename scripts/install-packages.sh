@@ -9,7 +9,6 @@ PACKAGES=(
   "eza"
   "qemu"
   "starship"
-  "iio-sensor-proxy"
   "neovim"
   "tealdeer"
   "bat"
