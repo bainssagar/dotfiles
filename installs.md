@@ -14,6 +14,7 @@
 - [ ] Alphabetical App Grid
 - [ ] Auto Accent Color
 - [ ] Caffeine
+- [ ] PaperWM
 
 ## Browser Extensions
 
