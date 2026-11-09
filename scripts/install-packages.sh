@@ -12,6 +12,7 @@ PACKAGES=(
   "neovim"
   "tealdeer"
   "bat"
+  "tree"
   # GNOME Specific
   "gnome-clocks"
   "gnome-calendar"
