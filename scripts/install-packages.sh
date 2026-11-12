@@ -19,6 +19,7 @@ PACKAGES=(
   "gnome-weather"
   "gnome-boxes"
   "gnome-characters"
+  "gnome-2048"
   "extension-manager"
   "gdm-settings"
   "amberol"
