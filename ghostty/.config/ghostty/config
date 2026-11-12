@@ -6,7 +6,7 @@ font-size = 14
 confirm-close-surface = false
 
 window-decoration = true
-background-opacity = 0.8
+background-opacity = 0.25
 background-blur = true
 
 window-padding-x = 10
