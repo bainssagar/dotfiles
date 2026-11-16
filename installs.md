@@ -15,7 +15,6 @@
 - [ ] Auto Accent Color
 - [ ] Caffeine
 - [ ] Accent Hold
-- [ ] PaperWM
 
 ## Browser Extensions
 
