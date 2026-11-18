@@ -42,7 +42,6 @@ PACKAGES=(
   "z13gui-plus-bin"
   "localsend"
   "protonplus"
-  "libreoffice-fresh"
   "clamui"
   "lmstudio-bin"
   "zapzap"
