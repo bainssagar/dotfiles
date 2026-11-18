@@ -46,6 +46,7 @@ PACKAGES=(
   "lmstudio-bin"
   "zapzap"
   "gpu-screen-recorder-ui"
+  "artcraft-launcher-bin"
   # TUI Apps
   "lazygit"
   "superfile"
