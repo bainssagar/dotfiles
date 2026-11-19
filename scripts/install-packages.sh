@@ -52,7 +52,6 @@ PACKAGES=(
   "superfile"
   "kotofetch"
   "unimatrix-git"
-  "pokemon-colorscripts-git"
   "ookla-speedtest-bin"
   "toofan-bin"
   "vitetris"
