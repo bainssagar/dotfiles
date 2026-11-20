@@ -3,111 +3,90 @@
   "logo": {
     "type": "auto",
     "source": "/home/sbains/dotfiles/fastfetch/.config/fastfetch/ghostty.png",
+    "width": 24,
+    "height": 12,
     "padding": {
       "top": 5,
-      "left": 2,
-      "right": 2,
+      "left": 5,
+      "right": 5,
     },
   },
   "display": {
-    "separator": "",
-    "constants": [
-      // CONSTANT {$1} - VERTICAL BARS
-      "\u001b[32m│                                     │\u001b[37D\u001b[39m",
-      //constant {$2}
-      "\u001b[32m│                                                   │\u001b[51D\u001b[39m",
-    ],
+    "separator": "  ",
+    "key": {
+      "width": 12,
+    },
   },
   "modules": [
     "break",
-    {
-      "type": "custom",
-      "key": " ",
-      "format": "{#32}╭  user ───────────────────────────────────────────╮",
-    },
+    "break",
     {
       "type": "title",
-      "format": "{$2}{#39}{user-name}{#32}@{#39}{host-name}",
+      "format": "{user-name-colored}{at-symbol-colored}{host-name-colored}",
     },
+    "break",
     {
-      "key": "{#32}╰───────────────────────────────────────────────────╯",
-      "type": "custom",
-    },
-    {
-      "type": "custom",
-      "key": "{#32}╭────────────╮",
-      "format": "{#32}╭─────────────────────────────────────╮",
-    },
-    {
-      "key": "{#32}│ {#32}󰇅 machine  {#32}│",
-      "type": "host",
-      "format": "{$1}{name}  {#32}",
-    },
-    {
-      "key": "{#32}│ {#32}{icon} kernel   {#32}│",
-      "type": "kernel",
-      "format": "{$1}{sysname}  {#32}[v{release}]",
-    },
-    {
-      "key": "{#32}│ {#32}{icon} distro   {#32}│",
       "type": "os",
-      "format": "{$1}{pretty-name} {codename} {#32}[{version}] [{arch}]",
+      "key": "  OS",
+      "format": "{pretty-name} {arch}",
     },
     {
-      "key": "{#32}│ {#32}{icon} de       {#32}│",
+      "type": "kernel",
+      "key": "  Kernel",
+      "format": "{release}",
+    },
+    {
       "type": "de",
-      "format": "{$1}{pretty-name}  {#32}[v{version}]",
+      "key": "  DE",
+      "format": "{pretty-name}",
     },
     {
-      "key": "{#32}│ {#32}{icon} terminal {#32}│",
+      "type": "wm",
+      "key": "  WM",
+      "format": "{pretty-name} · {protocol-name}",
+    },
+    "break",
+    {
+      "type": "shell",
+      "key": "  Shell",
+    },
+    {
       "type": "terminal",
-      "format": "{$1}{pretty-name}  {#32}[{version}]",
+      "key": "  Term",
     },
     {
-      "key": "{#32}│ {#32}{icon} pkgs     {#32}│",
       "type": "packages",
-      "format": "{$1}{all}           {#32}",
+      "key": "󰏖  Pkgs",
+      "format": "{pacman} pacman · {flatpak-all} flatpak",
     },
+    "break",
     {
-      "key": "{#32}│ {#32}{icon} cpu      {#32}│",
       "type": "cpu",
-      "showPeCoreCount": true,
-      "format": "{$1}{name} {#32}[C:{core-types}][{freq-max}]",
+      "key": "  CPU",
+      "format": "{name}",
     },
     {
-      "key": "{#32}│ {#32}{icon} gpu      {#32}│",
       "type": "gpu",
-      "detectionMethod": "auto",
-      "driverSpecific": true,
-      "format": "{$1}{name}",
+      "key": "󰢮  GPU",
+      "format": "{name}",
     },
     {
-      "key": "{#32}│ {#32}{icon} memory   {#32}│",
       "type": "memory",
-      "format": "{$1}{used} / {total} {#32}({percentage}{#32})",
+      "key": "  RAM",
+      "format": "{used} / {total}",
     },
     {
-      "key": "{#32}│ {#32}{icon} disk     {#32}│",
       "type": "disk",
-      "format": "{$1}{size-used} / {size-total} {#32}({size-percentage}{#32})",
+      "key": "󰋊  Disk",
+      "folders": "/",
+      "format": "{size-used} / {size-total}",
     },
+    "break",
     {
       "type": "custom",
-      "key": "{#32}╰────────────╯",
-      "format": "{#32}╰─────────────────────────────────────╯",
+      //      "format": "\u001b[38;2;206;214;223m●  \u001b[38;2;154;177;203m●  \u001b[38;2;147;150;200m●  \u001b[38;2;164;204;209m●  \u001b[38;2;145;153;161m●\u001b[0m",
+      "format": "{#97}󰊠 {#36}󰊠 {#96}󰊠 {#35}󰊠 {#95}󰊠 {#34}󰊠 {#94}󰊠 {#33}󰊠 {#93}󰊠 {#32}󰊠 {#92}󰊠 {#31}󰊠 {#91}󰊠 {#30}󰊠 {#90}󰊠 ",
     },
-    {
-      "type": "custom",
-      "key": " ",
-      "format": "{#32}╭ 󱥚 colors ─────────────────────────────────────────╮",
-    },
-    {
-      "type": "custom",
-      "format": "{$2}{#37}󰮯  {#97}󰊠 {#36}󰊠 {#96}󰊠 {#35}󰊠 {#95}󰊠 {#34}󰊠 {#94}󰊠 {#33}󰊠 {#93}󰊠 {#32}󰊠 {#92}󰊠 {#31}󰊠 {#91}󰊠 {#30}󰊠 {#90}󰊠 ",
-    },
-    {
-      "key": "{#32}╰───────────────────────────────────────────────────╯",
-      "type": "custom",
-    },
+    "break",
   ],
 }
