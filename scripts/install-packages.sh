@@ -29,6 +29,7 @@ PACKAGES=(
   "dialect"
   "impression"
   "secrets"
+  "video-trimmer"
   # Themes/Fonts
   "ttf-google-sans"
   "ttf-google-sans-code-vf"
