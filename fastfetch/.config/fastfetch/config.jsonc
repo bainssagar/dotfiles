@@ -38,7 +38,7 @@
     {
       "type": "de",
       "key": "  DE",
-      "format": "{pretty-name}",
+      "format": "{pretty-name} {version}",
     },
     {
       "type": "wm",
