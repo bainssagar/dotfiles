@@ -15,7 +15,6 @@
 - [ ] Alphabetical App Grid
 - [ ] Auto Accent Color
 - [ ] Caffeine
-- [ ] Accent Hold
 
 ## Browser Extensions
 
