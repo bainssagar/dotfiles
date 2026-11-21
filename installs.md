@@ -6,6 +6,7 @@
 - [ ] Dash to Dock
 - [ ] Just Perfection
 - [ ] AppIndicator and KStatusNotifierItem Support
+- [ ] Tray Drawer
 - [ ] Clipboard History
 - [ ] Weather O'Clock
 - [ ] Medialine
