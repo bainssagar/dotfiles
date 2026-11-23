@@ -13,6 +13,7 @@ PACKAGES=(
   "tealdeer"
   "bat"
   "tree"
+  "cachyos-recovery"
   # GNOME Specific
   "gnome-clocks"
   "gnome-calendar"
