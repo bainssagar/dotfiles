@@ -10,7 +10,7 @@ PACKAGES=(
   "qemu"
   "starship"
   "neovim"
-  "tealdeer"
+  "tldr"
   "bat"
   "tree"
   "cachyos-recovery"
