@@ -14,6 +14,8 @@ PACKAGES=(
   "bat"
   "tree"
   "cachyos-recovery"
+  "tree-sitter-cli"
+  "luarocks"
   # GNOME Specific
   "gnome-clocks"
   "gnome-calendar"
