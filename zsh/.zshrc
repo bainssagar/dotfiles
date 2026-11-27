@@ -17,8 +17,8 @@ alias matrix="unimatrix -s 97 -a"
 alias install-packages="bash ~/dotfiles/scripts/install-packages.sh"
 
 #defaults
-export EDITOR="zeditor"
-export VISUAL="zeditor"
+export EDITOR="nvim"
+export VISUAL="nvim"
 export SUDO_EDITOR="nvim"
 
 #zoxide
