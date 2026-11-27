@@ -12,6 +12,18 @@ return {
         border = "rounded",
         backdrop = false,
       },
+      styles = {
+        float = {
+          border = "rounded",
+          backdrop = false,
+        },
+        notification = {
+          border = "rounded",
+        },
+        input = {
+          border = "rounded",
+        },
+      },
     },
   },
 }
