@@ -39,7 +39,6 @@ PACKAGES=(
   # GUI Apps
   "ghostty"
   "brave-origin-bin"
-  "zed"
   "z13gui-plus-bin"
   "localsend"
   "protonplus"
@@ -56,6 +55,7 @@ PACKAGES=(
   "ookla-speedtest-bin"
   "toofan-bin"
   "vitetris"
+  "opencode"
 )
 
 # --- 2. Filter packages (Pacman vs AUR) ---
