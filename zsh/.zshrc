@@ -5,6 +5,7 @@ source /usr/share/cachyos-zsh-config/cachyos-config.zsh
 kotofetch --source=true
 
 #aliases
+alias n="nvim"
 alias i="sudo pacman -S"
 alias i2="yay -S"
 alias s="pacman -Ss"
