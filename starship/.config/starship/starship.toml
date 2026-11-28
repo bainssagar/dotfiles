@@ -1,5 +1,5 @@
 # Minimal two-line prompt.
-# "blue" = kitty color4 = wallpaper accent (written by Quickshell), so it follows the rice.
+
 format = """$directory$git_branch$git_status$cmd_duration
 $character"""
 
@@ -18,7 +18,6 @@ style = "bright-black"
 format = "([$all_status$ahead_behind]($style) )"
 
 [cmd_duration]
-# only shows for commands that took longer than 2s
 style = "yellow"
 format = "[$duration]($style) "
 
