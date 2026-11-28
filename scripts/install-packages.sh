@@ -21,7 +21,6 @@ PACKAGES=(
   "gnome-calendar"
   "gnome-weather"
   "gnome-boxes"
-  "gnome-2048"
   "extension-manager"
   "gdm-settings"
   "amberol"
